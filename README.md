@@ -1,0 +1,1 @@
+# learn2earn-trials-2026
