@@ -1,0 +1,35 @@
+SHORT REFLECTION
+
+1. What part of the mission was easiest for you?
+
+The easiest part for me was writing the budget_remaining function. 
+I understood that I needed to subtract food and transport expenses from the total budget. 
+I used the return statement to send the remaining amount back.
+
+2. What test exposed a mistake or gave you confidence that your code was correct?
+
+The normal case, where the budget was 2000, food was 900, and transport was 600, 
+gave me confidence because the result was 500. 
+The zero-expense and overspend cases also helped me check that the function 
+returned 1500 and -300 respectively. These results matched my expected answers.
+
+3. What feedback did you receive?
+
+During my review, I identified that I needed to document my tests more clearly. 
+I also needed to test both functions together by passing the result of budget_remaining 
+into budget_message. This helped me understand that testing individual functions is useful, 
+but checking how they work together is important too.
+
+4. What exactly did you change after the feedback?
+
+I cleaned up the spacing in my function parameters and comments, 
+and added a test that passes the calculated remaining balance into budget_message. 
+I also recorded each test's inputs, expected result, actual result, and pass/fail status. 
+After making changes, I reran the tests to check the results.
+
+5. If you had ten more minutes, what would you check again?
+
+I would check that both functions use the supplied arguments and return the correct 
+values without asking for input or printing inside the functions. I would rerun the normal, 
+zero-expense, overspend, and message-format tests. I would also confirm that the message 
+has the exact wording, spaces, and final full stop.

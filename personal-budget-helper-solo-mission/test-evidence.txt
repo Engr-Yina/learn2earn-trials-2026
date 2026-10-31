@@ -1,0 +1,33 @@
+PERSONAL BUDGET HELPER
+
+TEST EVIDENCE - File tested: solution.py
+
+TEST 1: Normal Case
+Inputs: budget = 2000, food = 900, transport = 600
+Expected result: 500
+Actual result: 500
+Status: PASS
+
+TEST 2: Zero-Expense Case
+Inputs: budget = 1500, food = 0, transport = 0
+Expected result: 1500
+Actual result: 1500
+Status: PASS
+
+TEST 3: Overspend Case
+Inputs: budget = 1000, food = 800, transport = 500
+Expected result: -300
+Actual result: -300
+Status: PASS
+
+TEST 4: Message-Format Case
+Inputs: name = "Ada", remaining = 500
+Expected result: Ada has 500 naira remaining.
+Actual result: Ada has 500 naira remaining.
+Status: PASS
+
+TEST 5: Integrated Function Test
+Inputs: budget_remaining(2000, 900, 600), followed by budget_message("Ada", remaining)
+Expected result: Ada has 500 naira remaining.
+Actual result: Ada has 500 naira remaining.
+Status: PASS
